@@ -1,27 +1,22 @@
-
 package main
 
 import "fmt"
 
-func main(){
+func main() {
 	fmt.Print("Hola Mundo Golang ! ")
-
-
 
 	var edad = 32
 	var nombre = "Javier"
 
-	fmt.Print("mi nombres es ", nombre , " y tengo " , edad, " años")
+	fmt.Print("mi nombres es ", nombre, " y tengo ", edad, " años")
 
-
-//Entradas
+	//Entradas
 	var web string
 	fmt.Println("Introduce una entrada")
 	fmt.Scan(&web)
 	fmt.Println("Tu entrada fue: ", web)
 
-
-//Condicionales
+	//Condicionales
 
 	var altura int
 
@@ -33,7 +28,6 @@ func main(){
 	} else {
 		fmt.Println("Eres bajo que pena")
 	}
-
 
 	//Funciones
 
